@@ -80,7 +80,7 @@ function App(){
 
     return(
 
-        <div className="min-h-screen flex flex-col items-center justify-center dark:bg-gray-900 text-gray-900 dark:text-white p-5" >
+        <div className="bg-blue-100 min-h-screen flex flex-col items-center justify-center dark:bg-gray-900 text-gray-900 dark:text-white p-5" >
             <div className="text-2xl sm:text-3xl font-bold text-black-900 ">
                 <h1>
                     Weather App
