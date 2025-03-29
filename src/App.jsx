@@ -81,14 +81,14 @@ function App(){
     return(
 
         <div className="min-h-screen flex flex-col items-center justify-center dark:bg-gray-900 text-gray-900 dark:text-white p-5" >
-            <div className="text-lg text-black-900 font-bold">
+            <div className="text-2xl sm:text-3xl font-bold text-black-900 ">
                 <h1>
                     Weather App
                 </h1>
             </div>
 
             <SearchBar fetchWeather={fetchWeather}/>
-            {loading && <p className="text-blue-500 mt-2 animate-pulse">Fetching Weather...</p>}
+            {loading && <p className="text-blue-500 mt-2 animate-pulse ">Fetching Weather...</p>}
             {error && <p className="text-red-500 mt-2">{error}</p>}
             {weather && <WeatherCard weather={weather}/>}
             {forecast.length > 0 && <Forecast forecastData={forecast}/>}

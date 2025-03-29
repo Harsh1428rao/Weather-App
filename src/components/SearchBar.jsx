@@ -18,7 +18,7 @@ function SearchBar({fetchWeather}){
             placeholder="Enter city..."
             value={city}
             onChange={(e)=> setCity(e.target.value)}
-            className="w-full sm:w-3/4 p-3 border rounded-md text-gray-800 dark:text-white bg-white dark:bg-gray-800 outline-none"
+            className=" mt-4 w-full sm:w-3/4 p-3 border rounded-md text-gray-800 dark:text-white bg-white dark:bg-gray-800 outline-none"
             />
             <button
               type="submit"
