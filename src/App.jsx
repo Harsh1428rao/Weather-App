@@ -3,7 +3,6 @@ import axios from "axios";
 import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
 import Forecast from "./components/Forecast";
-// import { document } from "postcss";
 
 const API_KEY="43375e5dc4fd7eca36ba1dc852abe88c";
 const WEATHER_URL="https://api.openweathermap.org/data/2.5/weather";
