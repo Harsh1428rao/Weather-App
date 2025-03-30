@@ -4,7 +4,7 @@ import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
 import Forecast from "./components/Forecast";
 
-const API_KEY= import.meta.env.VITE_API_KEY;
+const API_KEY= "43375e5dc4fd7eca36ba1dc852abe88c";
 const WEATHER_URL="https://api.openweathermap.org/data/2.5/weather";
 const FORECAST_URL="https://api.openweathermap.org/data/2.5/forecast";
 
